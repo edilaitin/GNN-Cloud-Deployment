@@ -1,4 +1,4 @@
-from gnn.Wrapper_GNN import Wrapper_GNN
+from Wrapper_GNN import Wrapper_GNN
 from Wrapper_Z3 import Wrapper_Z3
 
 

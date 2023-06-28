@@ -1,8 +1,8 @@
 import json
 import random
-from gnn.main import Model, RGCN, HeteroMLPPredictor
-from gnn.Wrapper_GNN import Wrapper_GNN
-from gnn.Wrapper_GNN_Z3 import Wrapper_GNN_Z3
+from main import Model, RGCN, HeteroMLPPredictor
+from Wrapper_GNN import Wrapper_GNN
+from Wrapper_GNN_Z3 import Wrapper_GNN_Z3
 from Wrapper_Z3 import Wrapper_Z3
 
 with open("../Models/json/SecureWeb_with_milli_cpu.json", "r") as file:
